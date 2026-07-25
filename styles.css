@@ -2,6 +2,26 @@
     background-color: #6699CC
 }
 
+.logo-div {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    width: 95%;
+}
+
+.logo-img {
+    justify-self: start;
+}
+
+.logo-div h1 {
+    justify-self: center;
+    grid-column: 2;
+}
+
+.signin-link {
+    justify-self: end;
+}
+
 header {
     border: 5px solid #000000;
     width: 95%;
@@ -53,6 +73,11 @@ header {
 
 .breadcrumbs {
     border: 3px solid blue;
+    list-style: none;
+}
+
+.breadcrumbs li {
+    font: arial;
 }
 
 .search-box {
@@ -76,9 +101,30 @@ body {
 }
 
 .home-box {
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
     border: 5px solid red;
     width: 95%;
     flex-grow: 1;
+}
+
+.home-box-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.home-box-div {
+    border: 5px solid purple;
+    flex: 1;
+}
+
+.home-box-img {
+    max-width: 200px;
+    height: auto;
+    padding-bottom: 2.55%;
+    padding-left: 2.55%;
 }
 
 footer {
