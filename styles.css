@@ -44,6 +44,21 @@ header {
     transform: translateY(-1.5px);
 }
 
+.secondary-crumbs-search {
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid green;
+    width: 95%;
+}
+
+.breadcrumbs {
+    border: 3px solid blue;
+}
+
+.search-box {
+    border: 3px solid orange;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -68,6 +83,47 @@ body {
 
 footer {
     border: 5px solid yellow;
-    width: 80%;
-    flex-grow: 1;
+    width: 90%;
+}
+
+footer h4 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 1rem;
+    border: 5px solid white;
+    padding: 0;
+}
+
+.footer-list li {
+    display: flex;
+    background-color: #bdc3c7;
+    border: #2C3E50 2px solid;
+    box-shadow: 0 0 3px #2C3E50;
+    border-radius: 5px;
+}
+
+footer a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border: #2C3E50 2px solid;
+    box-shadow: 0 0 3px #2C3E50;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+footer a:hover {
+    background-color: #ecf0f1;
+    transform: translateY(-1.5px);
 }
