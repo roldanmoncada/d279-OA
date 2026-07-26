@@ -7,12 +7,20 @@
     <link rel="stylesheet" href="styles.css"></link>
 </head>
 <body>
+    <section class="logo-div">
+        <img class="logo-img" src="./assets/PPD-logo.png" alt="Paradigm Pet Professionals logo 2026">
+        
         <h1>Paradigm Pet Professionals</h1>
-    <header>
-        <!--<img src="./assets/PPD-logo.png" alt="Paradigm Pet Professionals logo 2026"> -->
 
+        <a href="#" class="signin-link">Sign In or Sign Up</a>
+    </section>
+
+    <header>
         <nav class="nav-bar">
             <ul class="nav-list">
+                <li>
+                    <a href="home.html">Home</a>
+                </li>
                 <li>
                     <a href="cats.html">Cats</a>
                 </li>
@@ -20,40 +28,107 @@
                     <a href="dogs.html">Dogs</a>
                 </li>
                 <li>
-                    <a href="birds.html">Birds</a>
-                </li>
-                <li>
                     <a href="faq.html">FAQs</a>
-                </li>
-                <li>
-                    <a href="consult-form.html">Contact</a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <div class="home-box">
-        1 LOREM IPSUM LOREM IPSUM
+    <section class="secondary-crumbs-search">
+
+    <ul class="breadcrumbs">
+        <li><a href="home.html">Home</a></li>
+        <li>Contact</li>
+    </ul>
+
+    <div class="search-box">
+        <input type="text" placeholder="Search here!"></input>
+        <button>Go</button>
     </div>
 
-    <div class="home-box">
-        2 LOREM IPSUM LOREM IPSUM
-    </div>
+    </section>
 
-    <div class="home-box">
-        3 LOREM IPSUM LOREM IPSUM
-    </div>
+    <section class="home-box">
+        <h2>Contact Us!</h2>
 
-    <div class="home-box">
-        4 LOREM IPSUM LOREM IPSUM
-    </div>
+        <div class="home-box-row">
+            <div class="home-box-div">
+                <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
 
-    <div class="home-box">
-        5 LOREM IPSUM LOREM IPSUM
-    </div>
+                    <p>
+                    <label for="first">First Name:</label>
+                    <input type="text" name="first" id="first">
+                    </p>
+                    
+                    <p>
+                    <label for="last">Last Name:</label>
+                    <input type="text" name="last" id="last">
+                    </p>
+
+                    <p>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" name="phone" id="phone">
+                    </p>
+
+                    <p>
+                    <label for="email">Email Address:</label>
+                    <input type="email" name="email" id="email">
+                    </p>
+
+                    <p>
+                        <label for="pet-name">Pet Name:</label>
+                        <input type="text" name="pet-name" id="pet-name">
+                    </p>
+
+                    <p>
+                        <label for="pet-type">Pet Type:</label>
+                        <input type="text" name="pet-type" id="pet-type">
+                    </p>
+
+                    <p>
+                        <label for="pet-age">Pet Age:</label>
+                        <input type="text" name="pet-age" id="pet-age">
+                    </p>
+
+                    <p>
+                    <label for="message">Additional Information::</label>
+                    <textarea name="message" id="message" rows="10" cols="50">Enter your message here.</textarea>
+                    </p>
+
+                    <input type="submit" value="Submit"></input>
+                    
+                </form>
+            </div>
+        </div>
+
+
+    </section>
 
     <footer>
-        FOOTER PLACEHOLDER TEXT
+        <h4>Copyright 2026, PPD, Inc.</h4>
+            <ul class="footer-list">
+                <li>
+                    <a href="#">Legal Information</a>
+                </li>
+                <li>
+                    <a href="#">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com" target="_blank">Twitter</a>
+                </li>
+                <li>
+                    <a href="https://instagram.com" target="_blank">Instagram</a>
+                </li>
+                <li>
+                    <a href="https://facebook.com" target="_blank">Facebook</a>
+                </li>
+                <li>
+                    <a href="#">Web Security</a>
+                </li>
+                <li>
+                    <a href="#">Site Accessibility</a>
+                </li>
+            </ul>
     </footer>
 </body>
 </html>
