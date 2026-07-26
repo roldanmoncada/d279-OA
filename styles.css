@@ -87,13 +87,26 @@ header {
     width: 95%;
 }
 
-.breadcrumbs {
+ul.breadcrumbs {
+    padding: 10px 16px;
     border: 3px solid blue;
     list-style: none;
 }
 
-.breadcrumbs li {
-    font: arial;
+ul.breadcrumbs li {
+    font-size: 18px;
+    display: inline;
+}
+
+ul.breadcrumbs li+li:before {
+    padding: 8px;
+    color: black;
+    content: "|";
+}
+
+ul.breadcrumbs li a:hover {
+    color: white;
+    text-decoration: underline;
 }
 
 .search-box {
